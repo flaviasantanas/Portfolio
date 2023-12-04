@@ -1,0 +1,164 @@
+html, body {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0;
+padding: 0;
+background-color: #f26b8a;
+color: #fff;;
+}
+
+header {
+background-color: #f26b8a;
+color: white;
+text-align: center;
+padding: 50px;
+}
+
+nav {
+text-align: center;
+margin: 50px;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+li {
+display: inline;
+margin-right: 1em;
+}
+
+a {
+text-decoration: none;
+font-size: 1.2em;
+padding: 1em 2em;
+margin: 1em;
+cursor: pointer;
+background-color: #f25278;
+color: white;
+border: none;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+a:hover {
+background-color: #f25278;
+}
+
+footer {
+text-align: center;
+padding: 1em 0;
+background-color: #fcbacb;
+color: white;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.fotos img {
+    width: 30%; /* Ajuste conforme necessário */
+    border-radius: 5px;
+}
+
+header, section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #f25278;
+    background-color: #ffe4e1;
+}
+
+h3 {
+    color: #ffe4e1;
+    font-size: 50px;
+}
+
+.informacoes-pessoais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img {
+    border-radius: 50%;
+    width: 100px; /* Ajuste conforme necessário */
+}
+
+.detalhes {
+    margin-left: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+.projeto {
+    margin: 20px;
+}
+
+.projeto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.projeto h2 {
+    color: #f25278;
+    background-color: #ffe4e1;
+    margin: 10px 0;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.social-link {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-link img {
+    width: 50px; 
+    border-radius: 50%;
+}
+
+span {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #fcbacb;
+font-weight: bold;
+}
+
+.icone-rede-social {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rede-social {
+    text-align: center;
+    margin: 10px;
+}
+
